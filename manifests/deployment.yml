@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8spratices-validation-webhook
+  labels:
+    app: k8spratices-validation-webhook
+spec:
+  selector:
+    matchLabels:
+      app: k8spratices-validation-webhook
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: k8spratices-validation-webhook
+    spec:
+      containers:
+        - name: k8spratices-validation-webhook
+          image: rayanebel/k8spratices-admission-controller:1.0
+          imagePullPolicy: Always
+          args:
+            - serve
+          ports:
+            - containerPort: 8443 
+          resources:
+            limits:
+              memory: "50Mi"
+              cpu: "100m"
+          volumeMounts:
+            - name: certs
+              mountPath: /etc/certs
+      volumes:
+        - name: certs
+          secret:
+            secretName: k8spratices-webhook-certs
