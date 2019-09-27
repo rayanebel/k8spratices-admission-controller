@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	tlsDir      = `certs`
+	tlsDir      = `/etc/certs`
 	tlsCertFile = `webhook.pem`
 	tlsKeyFile  = `webhook-key.pem`
 )
@@ -66,7 +66,6 @@ func serve(w http.ResponseWriter, r *http.Request, admit admitFunc) {
 		responseAdmissionReview.Response = utils.ToAdmissionResponse(err)
 	} else {
 		// pass to admitFunc
-		klog.Info(requestedAdmissionReview)
 		responseAdmissionReview.Response = admit(requestedAdmissionReview)
 	}
 

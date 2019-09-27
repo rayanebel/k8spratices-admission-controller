@@ -1,0 +1,691 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/rayanebellazaar/Perso/devs/admissions/k8spratices-admission-controller
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 208
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 53
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 585
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 144
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:55:28] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 2942
+    content: k
+  - delay: 174
+    content: "\bku"
+  - delay: 193
+    content: b
+  - delay: 68
+    content: e
+  - delay: 224
+    content: c
+  - delay: 171
+    content: t
+  - delay: 119
+    content: l
+  - delay: 1254
+    content: ' '
+  - delay: 3770
+    content: g
+  - delay: 78
+    content: e
+  - delay: 76
+    content: t
+  - delay: 112
+    content: ' '
+  - delay: 631
+    content: 'n'
+  - delay: 203
+    content: o
+  - delay: 81
+    content: d
+  - delay: 56
+    content: e
+  - delay: 195
+    content: s
+  - delay: 124
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]2;kubectl get nodes\a\e]1;kubectl\a"
+  - delay: 608
+    content: "NAME       STATUS   ROLES    AGE   VERSION\r\nminikube   Ready    master   18d   v1.15.2\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 33
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:55:39] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1530
+    content: k
+  - delay: 184
+    content: "\bku"
+  - delay: 192
+    content: b
+  - delay: 77
+    content: e
+  - delay: 127
+    content: c
+  - delay: 167
+    content: t
+  - delay: 69
+    content: l
+  - delay: 838
+    content: ' '
+  - delay: 107
+    content: a
+  - delay: 99
+    content: p
+  - delay: 129
+    content: p
+  - delay: 189
+    content: l
+  - delay: 293
+    content: 'y'
+  - delay: 136
+    content: ' '
+  - delay: 231
+    content: '-'
+  - delay: 87
+    content: f
+  - delay: 73
+    content: ' '
+  - delay: 579
+    content: m
+  - delay: 311
+    content: a
+  - delay: 205
+    content: "\a\r\r\n\e[J\e[0mmain.go     \e[J\e[1;31mmanifests\e[0m/\e[J\e[A\e[0m\e[27m\e[24m\e[39m\r\e[98Ckubectl apply -f ma\e[K\e[39m"
+  - delay: 930
+    content: "in.go\r\r\n\e[J\e[7mmain.go   \e[0m  \e[J\e[1;31mmanifests\e[0m/\e[J\e[A\e[0m\e[27m\e[24m\e[39m\r\e[98Ckubectl apply -f main.go\e[K\e[39m"
+  - delay: 583
+    content: "\r\r\n\e[7mmain.go   \e[0m  \r\e[7mmain.go   \e[0m  \r\e[A\e[0m\e[27m\e[24m\e[39m\r\e[98Ckubectl apply -f main.go\e[K\e[39m\b\b\b\b\bnifests\e[1m/\e[0m\r\r\n\e[12C\e[7mmanifests/\e[0m\rmain.go     \r\e[A\e[0m\e[27m\e[24m\e[39m\r\e[98Ckubectl apply -f manifests\e[1m/\e[0m\e[K\e[39m"
+  - delay: 1341
+    content: "\r\r\n\e[J\e[A\e[125C\b\e[0m/n"
+  - delay: 202
+    content: a
+  - delay: 216
+    content: "mespace.yml\e[1m \e[0m"
+  - delay: 2636
+    content: "\b\e[0m \b\e[?1l\e>\e[?2004l\r\r\n\e[J\e]2;kubectl apply -f manifests/namespace.yml\a\e]1;kubectl\a"
+  - delay: 208
+    content: "Warning: kubectl apply should be used on resource created by either kubectl create --save-config or kubectl apply\r\n"
+  - delay: 7
+    content: "namespace/armateur configured\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 35
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:55:51] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 7933
+    content: kubectl apply -f manifests/namespace.yml
+  - delay: 899
+    content: "\b \b"
+  - delay: 658
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 85
+    content: "\b \b"
+  - delay: 82
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 153
+    content: "\b \b"
+  - delay: 238
+    content: "\b \b"
+  - delay: 1990
+    content: "\b \b"
+  - delay: 156
+    content: s
+  - delay: 208
+    content: e
+  - delay: 295
+    content: "\a\r\r\n\e[J\e[0msecret.yml   \e[Jservice.yml\e[J\e[A\e[0m\e[27m\e[24m\e[39m\r\e[98Ckubectl apply -f manifests/se\e[K\e[39m"
+  - delay: 985
+    content: "cret.yml\r\r\n\e[J\e[7msecret.yml \e[0m  \e[Jservice.yml\e[J\e[A\e[0m\e[27m\e[24m\e[39m\r\e[98Ckubectl apply -f manifests/secret.yml\e[K\e[39m"
+  - delay: 542
+    content: "\r\r\n\e[7msecret.yml \e[0m  \r\e[7msecret.yml \e[0m  \r\e[A\e[0m\e[27m\e[24m\e[39m\r\e[98Ckubectl apply -f manifests/secret.yml\e[K\e[39m\r\r\n\e[J\e[A\e[135C\e[1m \e[0m"
+  - delay: 676
+    content: "\b\e[0m \b\e[?1l\e>\e[?2004l\r\r\n\e[J\e]2;kubectl apply -f manifests/secret.yml\a\e]1;kubectl\a"
+  - delay: 194
+    content: "secret/k8spratices-webhook-certs configured\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 34
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:56:07] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 2269
+    content: k
+  - delay: 206
+    content: "\bku"
+  - delay: 193
+    content: b
+  - delay: 64
+    content: e
+  - delay: 129
+    content: c
+  - delay: 162
+    content: t
+  - delay: 90
+    content: l
+  - delay: 119
+    content: ' '
+  - delay: 646
+    content: a
+  - delay: 229
+    content: p
+  - delay: 138
+    content: p
+  - delay: 211
+    content: l
+  - delay: 312
+    content: 'y'
+  - delay: 128
+    content: ' '
+  - delay: 242
+    content: '-'
+  - delay: 97
+    content: f
+  - delay: 60
+    content: ' '
+  - delay: 3239
+    content: m
+  - delay: 101
+    content: a
+  - delay: 152
+    content: 'n'
+  - delay: 178
+    content: i
+  - delay: 105
+    content: "fests\e[1m/\e[0m"
+  - delay: 2053
+    content: "\b\e[0m/d"
+  - delay: 108
+    content: e
+  - delay: 506
+    content: p
+  - delay: 225
+    content: l
+  - delay: 100
+    content: "oyment.yml\e[1m \e[0m"
+  - delay: 1174
+    content: "\b\e[0m \b\e[?1l\e>\e[?2004l\r\r\n\e]2;kubectl apply -f manifests/deployment.yml\a\e]1;kubectl\a"
+  - delay: 165
+    content: "deployment.apps/k8spratices-validation-webhook created\r\n"
+  - delay: 5
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 40
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:56:20] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 2012
+    content: kubectl apply -f manifests/deployment.yml
+  - delay: 321
+    content: "\b \b"
+  - delay: 660
+    content: "\b \b"
+  - delay: 82
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 85
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 82
+    content: "\b \b"
+  - delay: 85
+    content: "\b \b"
+  - delay: 82
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 223
+    content: "\b \b"
+  - delay: 293
+    content: s
+  - delay: 231
+    content: e
+  - delay: 184
+    content: r
+  - delay: 90
+    content: v
+  - delay: 199
+    content: i
+  - delay: 91
+    content: "ce.yml\e[1m \e[0m"
+  - delay: 1582
+    content: "\b\e[0m \b\e[?1l\e>\e[?2004l\r\r\n\e]2;kubectl apply -f manifests/service.yml\a\e]1;kubectl\a"
+  - delay: 164
+    content: "service/k8spratices-webhook created\r\n"
+  - delay: 7
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 45
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:56:27] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 1022
+    content: kubectl apply -f manifests/service.yml
+  - delay: 418
+    content: "\b \b"
+  - delay: 657
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 85
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 82
+    content: "\b \b"
+  - delay: 188
+    content: "\b \b"
+  - delay: 186
+    content: "\b \b"
+  - delay: 333
+    content: "\b \b"
+  - delay: 337
+    content: w
+  - delay: 100
+    content: e
+  - delay: 118
+    content: b
+  - delay: 124
+    content: "hook.yml\e[1m \e[0m"
+  - delay: 1587
+    content: "\b\e[0m \b\e[?1l\e>\e[?2004l\r\r\n\e]2;kubectl apply -f manifests/webhook.yml\a\e]1;kubectl\a"
+  - delay: 153
+    content: "validatingwebhookconfiguration.admissionregistration.k8s.io/k8spratices-validation-webhook created\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 32
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:56:33] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 3510
+    content: "\e[H\e[2J\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:56:37] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K"
+  - delay: 852
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 30
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:56:38] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 403
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 35
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:56:38] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 2046
+    content: k
+  - delay: 819
+    content: "\bku"
+  - delay: 189
+    content: b
+  - delay: 511
+    content: e
+  - delay: 457
+    content: c
+  - delay: 255
+    content: t
+  - delay: 95
+    content: l
+  - delay: 116
+    content: ' '
+  - delay: 622
+    content: a
+  - delay: 164
+    content: p
+  - delay: 127
+    content: p
+  - delay: 623
+    content: "\b \b"
+  - delay: 129
+    content: "\b \b"
+  - delay: 122
+    content: "\b \b"
+  - delay: 526
+    content: g
+  - delay: 77
+    content: e
+  - delay: 84
+    content: t
+  - delay: 96
+    content: ' '
+  - delay: 57
+    content: a
+  - delay: 295
+    content: l
+  - delay: 143
+    content: l
+  - delay: 668
+    content: ' '
+  - delay: 283
+    content: '-'
+  - delay: 296
+    content: 'n'
+  - delay: 120
+    content: ' '
+  - delay: 1742
+    content: a
+  - delay: 240
+    content: r
+  - delay: 90
+    content: m
+  - delay: 138
+    content: a
+  - delay: 194
+    content: t
+  - delay: 71
+    content: e
+  - delay: 153
+    content: u
+  - delay: 84
+    content: r
+  - delay: 2147
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]2;kubectl get all -n armateur\a\e]1;kubectl\a"
+  - delay: 106
+    content: "NAME                                                  READY   STATUS    RESTARTS   AGE\r\npod/k8spratices-validation-webhook-577dcb967d-m6vr9   1/1     Running   0          32s\r\n\r\nNAME                          TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE\r\nservice/k8spratices-webhook   ClusterIP   10.97.0.16   <none>        443/TCP   25s\r\n\r\nNAME                                             READY   UP-TO-DATE   AVAILABLE   AGE\r\ndeployment.apps/k8spratices-validation-webhook   1/1     1            1           32s\r\n\r\nNAME                                                        DESIRED   CURRENT   READY   AGE\r\nreplicaset.apps/k8spratices-validation-webhook-577dcb967d   1         1         1       32s\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 38
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:56:52] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 49072
+    content: k
+  - delay: 175
+    content: "\bku"
+  - delay: 169
+    content: b
+  - delay: 55
+    content: e
+  - delay: 161
+    content: c
+  - delay: 116
+    content: t
+  - delay: 76
+    content: l
+  - delay: 100
+    content: ' '
+  - delay: 701
+    content: g
+  - delay: 437
+    content: e
+  - delay: 83
+    content: t
+  - delay: 112
+    content: ' '
+  - delay: 988
+    content: "\e[7mvalidatingwebhookconfiguration.admissionregistration.k8s.io\e[27m"
+  - delay: 2867
+    content: "\e[59D\e[27mv\e[27ma\e[27ml\e[27mi\e[27md\e[27ma\e[27mt\e[27mi\e[27mn\e[27mg\e[27mw\e[27me\e[27mb\e[27mh\e[27mo\e[27mo\e[27mk\e[27mc\e[27mo\e[27mn\e[27mf\e[27mi\e[27mg\e[27mu\e[27mr\e[27ma\e[27mt\e[27mi\e[27mo\e[27mn\e[27m.\e[27ma\e[27md\e[27mm\e[27mi\e[27ms\e[27ms\e[27mi\e[27mo\e[27mn\e[27mr\e[27me\e[27mg\e[27mi\e[27ms\e[27mt\e[27mr\e[27ma\e[27mt\e[27mi\e[27mo\e[27mn\e[27m.\e[27mk\e[27m8\e[27ms\e[27m.\e[27mi\e[27mo\e[?1l\e>\e[?2004l\r\r\n\e]2;kubectl get validatingwebhookconfiguration.admissionregistration.k8s.io\a\e]1;kubectl\a"
+  - delay: 591
+    content: "NAME                             CREATED AT\r\nk8spratices-validation-webhook   2019-09-27T11:56:33Z\r\nvalidation.gatekeeper.sh         2019-09-18T08:43:19Z\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 40
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:57:48] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 6079
+    content: l
+  - delay: 78
+    content: "\bls"
+  - delay: 84
+    content: "\e[?1l\e>\e[?2004l\r\r\n\e]2;ls -G\a\e]1;ls\a"
+  - delay: 5
+    content: "Dockerfile LICENSE    README.md  \e[1m\e[36mcerts\e[39;49m\e[0m      \e[1m\e[36mcmd\e[39;49m\e[0m        config.yml go.mod     go.sum     \e[1m\e[36mhack\e[39;49m\e[0m       main.go    \e[1m\e[36mmanifests\e[39;49m\e[0m  \e[1m\e[36mpkg\e[39;49m\e[0m        \e[1m\e[36mtests\e[39;49m\e[0m\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 34
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:57:54] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 6119
+    content: k
+  - delay: 188
+    content: "\bku"
+  - delay: 190
+    content: b
+  - delay: 86
+    content: e
+  - delay: 232
+    content: c
+  - delay: 518
+    content: t
+  - delay: 1509
+    content: "\e[H\e[2J\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:58:03] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ kubect\e[K"
+  - delay: 1386
+    content: l
+  - delay: 662
+    content: ' '
+  - delay: 80
+    content: a
+  - delay: 128
+    content: p
+  - delay: 127
+    content: p
+  - delay: 181
+    content: l
+  - delay: 377
+    content: 'y'
+  - delay: 128
+    content: ' '
+  - delay: 231
+    content: '-'
+  - delay: 117
+    content: f
+  - delay: 61
+    content: ' '
+  - delay: 210
+    content: t
+  - delay: 80
+    content: e
+  - delay: 169
+    content: s
+  - delay: 184
+    content: "ts\e[1m/\e[0m"
+  - delay: 1201
+    content: "\a\b\e[0m/\r\r\n\e[J\e[1;31mbad\e[0m/   \e[J\e[1;31mgood\e[0m/\e[J\e[A\e[0m\e[27m\e[24m\e[39m\r\e[98Ckubectl apply -f tests/\e[K\e[39m"
+  - delay: 1188
+    content: b
+  - delay: 109
+    content: a
+  - delay: 202
+    content: "d\e[1m/\e[0m"
+  - delay: 1202
+    content: "\b\e[0m/s"
+  - delay: 283
+    content: e
+  - delay: 697
+    content: "\b \b"
+  - delay: 349
+    content: "\b \b"
+  - delay: 191
+    content: "\r\r\n\e[J\e[A\e[125Cbad-"
+  - delay: 902
+    content: "\a\r\r\n\e[J\e[J\e[0mbad-pod-without-resources-limitations.yaml  \e[Jbad-service-with-no-ip-filtering.yaml     \e[J\e[A\e[0m\e[27m\e[24m\e[39m\r\e[98Ckubectl apply -f tests/bad/bad-\e[K\e[39m"
+  - delay: 1046
+    content: "pod-without-resources-limitations.yaml\r\r\n\e[J\e[7mbad-pod-without-resources-limitations.yaml\e[0m  \e[Jbad-service-with-no-ip-filtering.yaml     \e[J\e[A\e[0m\e[27m\e[24m\e[39m\r\e[98Ckubectl apply -f tests/bad/bad-pod-without-resources-limitations.yaml\e[K\e[39m"
+  - delay: 239
+    content: "\r\r\n\e[7mbad-pod-without-resources-limitations.yaml\e[0m  \r\e[7mbad-pod-without-resources-limitations.yaml\e[0m  \r\e[A\e[0m\e[27m\e[24m\e[39m\r\e[98Ckubectl apply -f tests/bad/bad-pod-without-resources-limitations.yaml\e[K\e[39m\e[38Dservice-with-no-ip-filtering.yaml     \b\b\b\b\b\r\r\n\e[44C\e[7mbad-service-with-no-ip-filtering.yaml     \e[0m\rbad-pod-without-resources-limitations.yaml  \r\e[A\e[0m\e[27m\e[24m\e[39m\r\e[98Ckubectl apply -f tests/bad/bad-service-with-no-ip-filtering.yaml\e[K\e[39m"
+  - delay: 623
+    content: "\r\r\n\e[J\e[A\e[162C\e[1m \e[0m"
+  - delay: 800
+    content: "\b\e[0m \b\e[?1l\e>\e[?2004l\r\r\n\e[J\e]2;kubectl apply -f tests/bad/bad-service-with-no-ip-filtering.yaml\a\e]1;kubectl\a"
+  - delay: 260
+    content: "Error from server ([denied by svc-must-have-ip-filtering] Rejecting service my-service of type LoadBalancer : 'spec.loadBalancerSourceRanges' properties must be set): error when creating \"tests/bad/bad-service-with-no-ip-filtering.yaml\": admission webhook \"validation.gatekeeper.sh\" denied the request: [denied by svc-must-have-ip-filtering] Rejecting service my-service of type LoadBalancer : 'spec.loadBalancerSourceRanges' properties must be set\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 33
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:58:16] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 16028
+    content: kubectl apply -f tests/bad/bad-service-with-no-ip-filtering.yaml
+  - delay: 2490
+    content: "\b \b"
+  - delay: 658
+    content: "\b \b"
+  - delay: 85
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 85
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 85
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 84
+    content: "\b \b"
+  - delay: 83
+    content: "\b \b"
+  - delay: 133
+    content: "\b \b"
+  - delay: 241
+    content: "\b \b"
+  - delay: 539
+    content: p
+  - delay: 138
+    content: o
+  - delay: 100
+    content: "d-without-resources-limitations.yaml\e[1m \e[0m"
+  - delay: 2764
+    content: "\b\e[0m \b\e[?1l\e>\e[?2004l\r\r\n\e]2;kubectl apply -f tests/bad/bad-pod-without-resources-limitations.yaml\a\e]1;kubectl\a"
+  - delay: 238
+    content: "pod/frontend created\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                                                                                                                                                               \r \r\e]2;rayanebellazaar@MacBook-Pro-de-Rayane: ~/Perso/devs/admissions/k8spratices-admission-controller\a\e]1;..on-controller\a"
+  - delay: 35
+    content: "\r\e[0m\e[27m\e[24m\e[J(\e[34m⎈ \e[39m|\e[31mminikube\e[39m:\e[36marmateur\e[39m)[13:58:42] \e[36mrayanebellazaar\e[00m:\e[32mk8spratices-admission-controller\e[00m \e[33mgit:(master*)\e[00m $ \e[K\e[?1h\e=\e[?2004h"
+  - delay: 20085
+    content: "\e[?2004l\r\r\n"

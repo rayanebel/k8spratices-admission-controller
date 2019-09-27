@@ -1,9 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-service-bypass
-  annotations:
-    security.k8s.thalesdigital.io/allow-no-ip-filtering: "true"
+  name: my-service-ip-filtering
 spec:
   selector:
     app: MyApp
@@ -12,3 +10,5 @@ spec:
       port: 80
       targetPort: 9376
   type: LoadBalancer
+  loadBalancerSourceRanges:
+  - 1.2.3.4/32
